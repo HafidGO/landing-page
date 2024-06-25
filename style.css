@@ -1,0 +1,219 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/*Header CSS*/
+
+header{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: -5; */
+    
+}
+
+header .logoText{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-left: 100px;
+}
+
+header div{
+    display: flex;
+    padding-right: 50PX;
+}
+
+/*This website is awesome CSS*/
+.websiteDivContainer{
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    flex-grow: 3;
+    color: #F9FAF8;
+}
+
+.websiteDivContainer .awesomeContainer{
+    display: flex;
+    flex-direction: column;justify-content: center;
+    padding: 100px;
+}
+
+.websiteDivContainer .awesomeContainer .tittle{
+    /* font: font-weight font-variant font-size font-style */
+    font: bolder small-caps 48px Courier;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40vh;
+}
+
+.websiteDivContainer button {
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 10px 5px 0;
+}
+
+.websiteDivContainer .placeholderImg{
+    width: 800px;
+    height: 350px;
+    background-color:#e5e7eb84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;     
+} 
+
+/*Some random information CSS*/
+
+.infoDivContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoDivContainer .secondTittle{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px;
+    /* font: font-weight font-variant font-size font-style */
+    font-weight: bold;
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    
+}
+
+.imagesContainer .card{
+    width:100px;
+}
+
+.card img{
+    width: 250px;
+    height: auto;
+    max-width: 200px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #3882F6;
+}
+
+
+/*Quote CSS*/
+
+.quoteContainer{
+    background-color: #E5E7EB;
+    font-size: 24px;
+    padding: 100px 300px 60px;
+}
+
+.quoteContainer .quote {
+    /* font: font-weight font-variant font-size font-style */
+    font: normal normal 38px italic;  
+    margin-bottom: 20px;
+}
+
+.quoteContainer .quoteSign{
+    text-align: right;
+    font-weight: bold;
+}
+
+/*SignUp CSS*/
+
+.signUpContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUpBlueContainer{
+    display: flex;
+    border: solid;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 15px 70px 15px;
+    margin: 50px;
+    font-size: 12px;
+    width:800px;
+    height:90px;
+    display: flex;
+    align-items: center;
+}
+
+.signUpBlueContainer div .firstText{
+    font-size: 16px;
+    font: bolder;
+}
+
+.signUpBlueContainer button{
+    height: 30px;
+    width: 80px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid .5px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+}
+
+
+
+
+
+/* Delete after finishing website */
+
+/* header{
+    border: solid red;
+}
+
+.websiteDivContainer{
+    border: solid blue;
+}
+
+.infoDivContainer{
+    border: solid green;
+}
+
+.imagesContainer{
+    border: solid pink;
+}
+
+.quoteContainer{
+    border: solid orange;
+}
+
+.signUpContainer{
+    border: solid purple;
+}
+
+.signUpBlueContainer{
+    border: solid yellow;
+}
+
+
+ */
