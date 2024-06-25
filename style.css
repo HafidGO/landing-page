@@ -99,13 +99,13 @@ header div{
 }
 
 .imagesContainer .card{
-    width:100px;
+    width: 250px;;
 }
 
 .card img{
-    width: 250px;
+    width: 300px;
     height: auto;
-    max-width: 200px;
+    /* max-width: 500px; */
     border: solid;
     border-radius: 20px;
     border-color: #3882F6;
